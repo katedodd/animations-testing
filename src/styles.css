@@ -1,7 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html, body { 
+  height: 100%;
+}
+
+body { 
+  margin: 0; 
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  background-color: rgb(147, 192, 147); 
+}
+
+.body-container {
+  background-color: rgb(238, 238, 238);
+  margin: 20px 50px 20px 50px;
+  padding: 20px 20px 50px 20px;
+  min-height: 500px;
+  box-shadow: 0px 0px 15px black;
+}
+
+.mat-toolbar, .mat-button, button {
+  font-family: "Comic Sans MS",
+  "Comic Sans",
+  cursive;
+}
 
 @keyframes box-shadow-glow {
   50% {
@@ -18,6 +39,20 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     transform: scaleY(1.0005);
   }
   
+  50% {
+    transform: scaleY(1.05);
+  }
+}
+
+@keyframes cat-breathing2 {
+  0% {
+    transform: scaleY(1);
+  }
+
+  10% {
+    transform: scaleY(1.5);
+  }
+
   50% {
     transform: scaleY(1.05);
   }
