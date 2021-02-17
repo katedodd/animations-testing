@@ -1,0 +1,35 @@
+.mat-toolbar {
+  position: sticky;
+  background: pink;
+  z-index: 1;
+  box-shadow: 0px 4px 10px gray;
+}
+
+.logo,
+.title {
+  color: white;
+  margin: 0px 50px;
+  padding: 0px 30px;
+  height: 72px;
+  border-left: 1px solid rgb(209, 165, 172);
+  border-right: 1px solid rgb(209, 165, 172);
+}
+
+.example-spacer,
+.toolbar-spacing {
+  flex: 1 1 auto;
+}
+
+.nav-button {
+  /* background: #65592a; */
+  background: transparent;
+  font-size: 24px;
+  color: white;
+  font-family: 'belisa';
+  position: relative;
+  margin-left: 100px;
+  height: 100%;
+  border-radius: 0px;
+  border-left: 1px solid rgb(209, 165, 172);
+  border-right: 1px solid rgb(209, 165, 172);
+}

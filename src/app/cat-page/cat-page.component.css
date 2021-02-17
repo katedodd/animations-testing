@@ -1,0 +1,24 @@
+.cat-full {
+    position: relative;
+    height: 300px;
+}
+
+.cat-pieces {
+    position: absolute;
+}
+
+.cat-pieces > img {
+    height: 300px;
+    width: calc(300px/3);
+}
+
+.cat-image {
+    position: relative;
+    display: flex;
+    /* transform: scale(0.5); */
+    height: 300px;
+}
+
+.cat-middle {
+    animation: cat-breathing 2s ease-in-out infinite;
+}
