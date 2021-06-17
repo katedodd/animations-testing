@@ -1,27 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { 
+html, body {
   height: 100%;
 }
 
-body { 
-  margin: 0; 
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
-  background-color: rgb(147, 192, 147); 
+body {
+  margin: 0;
+  font-family: "New Century Schoolbook", "TeX Gyre Schola", serif;
+  background-color: rgb(147, 192, 147);
+  font-size: 24px;
 }
 
 .body-container {
   background-color: rgb(238, 238, 238);
   margin: 20px 50px 20px 50px;
-  padding: 20px 20px 50px 20px;
+  padding: 50px 100px 50px 100px;
   min-height: 500px;
   box-shadow: 0px 0px 15px black;
+  text-align: justify;
 }
 
-.mat-toolbar, .mat-button, button {
-  font-family: "Comic Sans MS",
-  "Comic Sans",
-  cursive;
+ol, li {
+  line-height: 1.5em;
+}
+
+code {
+  background-color: rgba(255, 123, 0, 0.51);
+  padding: 4px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: rebeccapurple;
+  transition: all 0.2s linear;
+}
+
+a:hover {
+  font-size: 26px;
+  color: darkcyan;
 }
 
 @keyframes box-shadow-glow {
@@ -38,7 +55,7 @@ body {
   10% {
     transform: scaleY(1.0005);
   }
-  
+
   50% {
     transform: scaleY(1.05);
   }

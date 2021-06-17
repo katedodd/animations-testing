@@ -1,4 +1,4 @@
-//https://github.com/cornflourblue/angular-8-animation-example
+// https://github.com/cornflourblue/angular-8-animation-example
 import { trigger, animate, transition, style, keyframes } from '@angular/animations';
 
 export const slideLeft =
@@ -16,6 +16,6 @@ export const slideLeft =
             style({ opacity: 0.9, right: '-25%' }),
             style({ opacity: 1, right: '0%' }),
         ])),
-        
+
     ])
 ]);
